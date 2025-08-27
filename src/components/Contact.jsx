@@ -23,7 +23,10 @@ const Contact = () => {
         Contact Us
       </h3>
 
-      <form className="max-w-xl mx-auto relative z-10 bg-white p-8 rounded-2xl shadow-lg space-y-6 border border-gray-300">
+      <form
+        onSubmit={handleSubmit} // attached to fix ESLint
+        className="max-w-xl mx-auto relative z-10 bg-white p-8 rounded-2xl shadow-lg space-y-6 border border-gray-300"
+      >
         <input
           type="text"
           name="name"
