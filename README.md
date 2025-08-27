@@ -1,63 +1,86 @@
-CODEMAP Startup Site
+# 💻 CODEMAP Startup Site (React Project)
 
-A modern, responsive React website for showcasing services, portfolio projects, and contact forms. Built with Create React App and Tailwind CSS for styling.
+A modern, responsive React website for startups and small businesses, showcasing services, portfolio projects, and a contact form. Built with React and Tailwind CSS for fast, flexible, and modern UI/UX.
+
+---
+
+# 🔧 Technologies Used
+
+ - Frontend: React, Tailwind CSS
+ - Icons: React Icons
+ - Code Quality: ESLint
+ - Styling: OKLCH gradients, shadows, hover effects
+
+---
+
+## 📁 Folder Structure
 
 
-#Install dependencies
+ ```bash 
+    
+startup-site/
+├── src/
+│   ├── assets/          # Images, icons, logos
+│   ├── components/      # React components (Hero, About, Services, Portfolio, Contact, Footer)
+│   ├── data/            # JSON files (portfolio.json, services.json)
+│   ├── App.jsx
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 
-``bash
+``` 
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/startup-site.git
+cd startup-site
+```
+
+
+---
+### 2. Install frontend dependencies
+
+```bash
 npm install
-``
+```
+### 3. Start the development server
 
-#Run the app in development
-
-``bash
+```bash
 npm start
-``
+```
+### 4. Build for production
 
-#Build for production
-
-``bash
+```bash
 npm run build
-``
+```
 
-##Project Structure
+## 📸 Features
 
+ - Fully responsive layout for mobile and desktop
 
-src/
-├── assets/          # Images, icons, logos
-├── components/      # React components (Hero, About, Services, Portfolio, Contact, Footer)
-├── data/            # JSON files (portfolio.json, services.json)
-├── App.jsx
-└── index.js
+ - Hero section with background image and overlay
 
-##Styling & UI/UX Decisions
+ - Gradient backgrounds using OKLCH colors
 
+ - Portfolio & Services sections with interactive hover cards
 
-* Tailwind CSS for fast and responsive styling.
+ - Contact form with accessible input fields
 
-* Gradients & OKLCH colors for modern, visually appealing backgrounds.
+ - Footer with social links
 
-* Cards and buttons use subtle shadows and hover animations.
+ - Smooth hover animations and shadow effects
 
-* Form fields have clear borders, focus rings, and accessible contrast.
+## 🚀 Deployment Notes
 
-* Components are reusable and modular for easy maintenance.
+Can be deployed on Vercel, Netlify, or any static React hosting
 
-  
-##Technologies
+## 🤝 Author
+- Developed by Sathsara
 
-* React 
-* Tailwind CSS
-* React Icons
-* ESLint for code quality
-
-##Key Decisions
-
-* Gradient backgrounds: OKLCH and Tailwind gradients for smooth color transitions.
-
-* Cards & hover effects: Slight scaling and shadow effects to improve interactivity.
-
-* Contact form: Simple design with proper accessibility and focus states.
-
+- GitHub: MadhushanSathsara
 
