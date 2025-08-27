@@ -1,0 +1,31 @@
+[
+  { 
+    "title": "E-commerce Website", 
+    "tags": ["React", "Stripe", "Node.js"],
+    "img":"ecommerce.jpg" },
+
+  { 
+    "title": "Portfolio Site", 
+    "tags": ["Next.js", "Tailwind"],
+    "img":"portfolio.jpg" },
+
+  { 
+    "title": "Business Dashboard", 
+    "tags": ["React", "Chart.js"],
+    "img":"dashbord.jpg" },
+
+  { 
+    "title": "Mobile App UI", 
+    "tags": ["React Native", "Figma"],
+    "img":"mobile.jpg" },
+
+  { 
+    "title": "E-commerce Website", 
+    "tags": ["React", "Stripe", "Node.js"],
+    "img":"ecommerce2.jpg" },
+
+  { 
+    "title": "Portfolio Site", 
+    "tags": ["Next.js", "Tailwind"],
+    "img":"portfolio2.jpg" }
+]

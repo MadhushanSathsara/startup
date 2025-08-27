@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Web Development",
+    "description": "Responsive and scalable websites built with modern technologies.",
+    "icon": "FaCode"
+},
+  {
+    "title": "UI/UX Design",
+    "description": "Beautiful, user-friendly designs that engage your audience.",
+    "icon": "FaPaintBrush"
+  },
+  {
+    "title": "API Integration",
+    "description": "Seamless integration with third-party APIs and services.",
+    "icon": "FaCogs"
+  }
+]
