@@ -20,9 +20,9 @@ A modern, responsive React website for startups and small businesses, showcasing
     
 startup-site/
 ├── src/
-│   ├── assets/          # Images, icons, logos
-│   ├── components/      # React components (Hero, About, Services, Portfolio, Contact, Footer)
-│   ├── data/            # JSON files (portfolio.json, services.json)
+│   ├── assets/         
+│   ├── components/      
+│   ├── data/         
 │   ├── App.jsx
 │   └── index.js
 ├── .gitignore
