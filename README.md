@@ -2,11 +2,13 @@ CODEMAP Startup Site
 
 A modern, responsive React website for showcasing services, portfolio projects, and contact forms. Built with Create React App and Tailwind CSS for styling.
 
+
 #Install dependencies
 
 ``bash
 npm install
 ``
+
 #Run the app in development
 
 ``bash
@@ -21,6 +23,7 @@ npm run build
 
 ##Project Structure
 
+
 src/
 ├── assets/          # Images, icons, logos
 ├── components/      # React components (Hero, About, Services, Portfolio, Contact, Footer)
@@ -29,6 +32,7 @@ src/
 └── index.js
 
 ##Styling & UI/UX Decisions
+
 
 * Tailwind CSS for fast and responsive styling.
 
